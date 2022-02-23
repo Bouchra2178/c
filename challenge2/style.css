@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+.sk1{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(-120deg, #4285f4, #34a853);
+    display: flex;
+    justify-content: center;
+    
+}
+.sk1::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    clip-path: polygon(100% 0,0 100%,100% 100%);
+}
+.sk2{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(-120deg,#fbbc05, #ea4335);
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+   
+
+}
+
+.chal2{
+    position: relative;
+    max-width: 900px;
+    text-align: center;
+}
+.chal2 h1{
+    margin: 0;
+    padding: 0;
+    color: azure;
+    font-size: 3em;
+}
+.chal2 h3{
+    margin: 0;
+    padding: 0;
+    color: azure;
+    font-size: 1.5;
+}
+
